@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+        "outDir": "./built/",
+        "sourceMap": true,
+        "strict": false,
+        "noImplicitReturns": false,
+        "allowJs": true,
+        "module": "es2015",
+        "moduleResolution": "node",
+        "target": "es5"
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
