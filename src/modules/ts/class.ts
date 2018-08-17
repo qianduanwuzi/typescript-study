@@ -12,6 +12,7 @@ interface Person {
 }
 
 function greet(person: Person) {
+    // let a = 123;
     return 'Hello' +  person.firstName + person.lastName
 }
 
