@@ -18,4 +18,6 @@ function greet(person: Person) {
 
 let curUser = new Student("Chen", "nan");
 
-document.body.innerHTML = greet(curUser);
+// document.body.innerHTML = greet(curUser);
+
+document.body.innerHTML = greet({firstName:'chen', lastName:'nan'});
